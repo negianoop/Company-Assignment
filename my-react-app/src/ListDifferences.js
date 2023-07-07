@@ -39,7 +39,7 @@ const ListDifferences = () => {
         <h3>Items present only in A:</h3>
 
           {differences.onlyInA.map(item => (
-            <span>{item + ","}</span>
+            <span>{item + " "}</span>
           ))}
 
       </div>
@@ -47,7 +47,7 @@ const ListDifferences = () => {
         <h3>Items present only in B:</h3>
 
           {differences.onlyInB.map(item => (
-            <span>{item + ","}</span>
+            <span>{item + " "}</span>
           ))}
 
       </div>
@@ -55,7 +55,7 @@ const ListDifferences = () => {
         <h3>Items present in both A and B:</h3>
 
           {differences.inBoth.map(item => (
-            <span>{item +  ","}</span>
+            <span>{item +  " "}</span>
           ))}
 
       </div>
@@ -63,7 +63,7 @@ const ListDifferences = () => {
         <h3>Items combining both A and B (unique):</h3>
 
           {differences.combined.map(item => (
-            <span>{item + ","}</span>
+            <span>{item + " "}</span>
           ))}
 
       </div>

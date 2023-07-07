@@ -13,8 +13,8 @@ const Tab = () => {
   return (
     <div>
         <ul className="tabs">
-            <li className={activeTab === 1 ? 'active' : ''} onClick={() => handleTabClick(1) }>First Tab</li>
-            <li className={activeTab === 2 ? 'active' : ''} onClick={() => handleTabClick(2) }>Second Tab</li>
+            <li className={activeTab === 1 ? 'active' : ''} onClick={() => handleTabClick(1) }>Task 1</li>
+            <li className={activeTab === 2 ? 'active' : ''} onClick={() => handleTabClick(2) }>Task 2</li>
             
         </ul>
 
