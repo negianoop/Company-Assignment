@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 const PomodoroClock = () => {
-  const [workTime, setWorkTime] = useState(1);
-  const [breakTime, setBreakTime] = useState(1);
+  const [workTime, setWorkTime] = useState(25);
+  const [breakTime, setBreakTime] = useState(5);
   const [cycles, setCycles] = useState(2);
   const [currentCycle, setCurrentCycle] = useState(1);
   const [time, setTime] = useState(workTime * 6);
