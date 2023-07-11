@@ -5,7 +5,7 @@ const PomodoroClock = () => {
   const [breakTime, setBreakTime] = useState(5);
   const [cycles, setCycles] = useState(2);
   const [currentCycle, setCurrentCycle] = useState(1);
-  const [time, setTime] = useState(workTime * 6);
+  const [time, setTime] = useState(workTime * 60);
   const [isRunning, setIsRunning] = useState(false);
 
   useEffect(() => {
